@@ -4,6 +4,9 @@ require('./helper/unique_flow_id');
 require('./helper/next');
 
 const assert = require('assert');
+require('../../lib/flow'); 
+
+delete require.cache[require.resolve('../../lib/flow')];
 const Flow = require('../../lib/flow');
 
 it( 'Sub Flow - frozen', ( done ) =>
