@@ -54,7 +54,7 @@ it( 'Promise-then', ( done ) =>
 	{
 		createPromise();
 	}
-});/*
+});
 
 it( 'Promise-catch', ( done ) =>
 {
@@ -161,4 +161,3 @@ it( 'Promise-await', ( done ) =>
 		createPromise();
 	}
 });
-*/
