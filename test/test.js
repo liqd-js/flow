@@ -11,7 +11,7 @@ describe( 'Tests', ( done ) =>
 	for( let file of files )
 	{
 		//if( !file.match(/\.js$/)/** / || ![ 'callbacks.js', 'freeze.js', 'nonexisting.js' ].includes( file )/**/ ){ continue; }
-		//if( !file.match(/\.js$/)/**/ || ![ 'exit.js' ].includes( file )/**/ ){ continue; }
+		//if( !file.match(/\.js$/)/**/ || ![ 'execute.js' ].includes( file )/**/ ){ continue; }
 		if( !file.match(/\.js$/) ){ continue; }
 
 		describe( file, () =>
